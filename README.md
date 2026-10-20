@@ -1,8 +1,11 @@
 # 🎓 W3Schools Learning Dashboard
 
-An automated learning analytics dashboard that retrieves public W3Schools profile statistics, generates a custom SVG visualization using Python, and displays the results on my GitHub profile.
-First Legit Extension to W3 Schools Dashboard that dosent use html and other webpage set ups.
-made in 10/19/2026
+W3Schools Learning Analytics Dashboard — Independent Extension
+October 19, 2026
+
+Developed an automated learning analytics dashboard that retrieves publicly available W3Schools profile statistics, generates a custom SVG visualization using Python, and automatically updates my GitHub profile through GitHub Actions. Built as an independent, code-driven extension to the W3Schools learning experience, without requiring a separate HTML website or web application.
+
+Technologies: Python, SVG, GitHub Actions, YAML, GitHub API integration.
 
 <p align="center">
   <a href="https://www.w3profile.com/AmpVolume/">

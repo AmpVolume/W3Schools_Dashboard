@@ -83,15 +83,22 @@ jobs:
           print("Dashboard generated successfully.")
           PY
 
+
       - name: Save updated dashboard
         run: |
           git add w3schools-dashboard.svg
+
           if git diff --cached --quiet; then
             echo "Dashboard is unchanged."
             exit 0
           fi
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git commit -m "Update W3Schools learning dashboard"
-          git push
+
+          git pull --rebase origin main
+          git push origin main
+
 

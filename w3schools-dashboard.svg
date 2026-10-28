@@ -123,7 +123,7 @@
             font-family="Arial, Helvetica, sans-serif"
             font-size="29" font-weight="700"
             fill="#FFFFFF">
-        0
+        1
       </text>
 
       <circle cx="920" cy="157" r="17"
@@ -267,6 +267,6 @@
   <text x="970" y="347" text-anchor="end"
         font-family="Arial, Helvetica, sans-serif"
         font-size="10" fill="#04AA6D">
-    Oct 28, 2026 at 12:11 UTC
+    Oct 28, 2026 at 22:13 UTC
   </text>
 </svg>
